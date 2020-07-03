@@ -248,6 +248,7 @@ nav {
   align-items: stretch;
   color: rgb(88, 89, 91);
   overflow-y: auto;
+  padding-bottom: 10rem;
 }
 
 .NavbarMobile__menu nav .NavbarMobile__item {
