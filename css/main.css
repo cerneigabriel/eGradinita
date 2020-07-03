@@ -1,28 +1,15 @@
-@import "./variables.css";
-@import "./minireset.css";
-@import "./bootstrap-grid.min.css";
+@import "./vendor/bootstrap-grid.min.css";
+@import "./vendor/font-awesome.min.css";
+@import "./vendor/animate.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-
-*,
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.container {
-  max-width: 1180px;
-}
-
-b {
-  font-weight: bolder;
-}
-/* Globals End */
-
-@import "./header.css";
+@import "./_utilities.css";
+@import "./_variables.css";
+@import "./_minireset.css";
+@import "./_typography.css";
+@import "./_default.css";
+@import "./_header.css";
+@import "./_footer.css";
+@import "./_banner.css";
+@import "./_steps.css";
+@import "./_forms.css";
+@import "./_table.css";

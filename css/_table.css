@@ -1,0 +1,46 @@
+.Table,
+.TableList {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.TableList td {
+  padding: 0.3rem 0.5rem 0.3rem 0;
+}
+
+.TableList .TableList__head {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0.3rem 0.5rem 0.3rem 1.2rem;
+  position: relative;
+}
+
+.TableList .TableList__head::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-radius: 1px;
+}
+
+.TableList .TableList__value {
+  font-size: 18px;
+  text-align: right;
+}
+
+@media (max-width: 1010px) {
+  .TableList .TableList__head {
+    font-size: 15px;
+  }
+
+  .TableList .TableList__value {
+    font-size: 15px;
+  }
+}

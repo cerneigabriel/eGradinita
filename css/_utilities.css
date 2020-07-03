@@ -1,0 +1,16 @@
+.upper {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: inherit;
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.text-white {
+  color: rgb(255, 255, 255);
+}
