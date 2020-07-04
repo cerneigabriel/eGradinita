@@ -6,8 +6,15 @@ document.querySelectorAll(".NavbarMobile__dropdown__link").forEach((item) => {
     if (
       this.parentElement.classList.contains("NavbarMobile__dropdown--active")
     ) {
-      this.querySelector(".fas").className = "fas fa-chevron-down";
+      this.parentElement
+        .querySelectorAll(".fas")
+        .forEach((fas) => (fas.className = "fas fa-chevron-down"));
       this.parentElement.classList.remove("NavbarMobile__dropdown--active");
+      this.parentElement
+        .querySelectorAll(".NavbarMobile__dropdown")
+        .forEach((dropdown) =>
+          dropdown.classList.remove("NavbarMobile__dropdown--active")
+        );
     } else {
       this.querySelector(".fas").className = "fas fa-chevron-up";
       this.parentElement.classList.add("NavbarMobile__dropdown--active");

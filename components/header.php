@@ -19,7 +19,7 @@
 
     <title>eGradinita</title>
 
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/dist/main.min.css" />
 </head>
 
 <body>
@@ -140,7 +140,7 @@
                             <i class="fas fa-chevron-left"></i>
                         </span>
                     </li>
-                    <li class="NavbarMobile__item NavbarMobile__item--active">
+                    <li class="NavbarMobile__item">
                         <a href="./pages/schools.html" class="NavbarMobile__link">Scoli</a>
                     </li>
                     <li class="NavbarMobile__item NavbarMobile__dropdown">
@@ -228,6 +228,62 @@
                                                     Întrebări frecvente
                                                 </a>
                                             </li>
+                                            <li class="NavbarMobile__dropdown__item NavbarMobile__dropdown">
+                                                <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
+                                                    Informatii
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </button>
+                                                <ul class="NavbarMobile__dropdown__menu">
+                                                    <li class="NavbarMobile__dropdown__item NavbarMobile__dropdown">
+                                                        <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
+                                                            Informatii
+                                                            <i class="fas fa-chevron-down"></i>
+                                                        </button>
+                                                        <ul class="NavbarMobile__dropdown__menu">
+                                                            <li class="NavbarMobile__dropdown__item">
+                                                                <a href="https://docs.google.com/document/d/1qBRxy3xZzkq33RcZb8ynJAC7hdVgh01GvKRmuMzlvOw" target="_blank">
+                                                                    Ghid de aplicare
+                                                                </a>
+                                                            </li>
+                                                            <li class="NavbarMobile__dropdown__item">
+                                                                <a href="./pages/rules.html">
+                                                                    Regulament
+                                                                </a>
+                                                            </li>
+                                                            <li class="NavbarMobile__dropdown__item">
+                                                                <a href="./pages/faq.html">
+                                                                    Întrebări frecvente
+                                                                </a>
+                                                            </li>
+                                                            <li class="NavbarMobile__dropdown__item">
+                                                                <a href="./pages/viguide.html">
+                                                                    Instrucțiuni video
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="NavbarMobile__dropdown__item">
+                                                        <a href="https://docs.google.com/document/d/1qBRxy3xZzkq33RcZb8ynJAC7hdVgh01GvKRmuMzlvOw" target="_blank">
+                                                            Ghid de aplicare
+                                                        </a>
+                                                    </li>
+                                                    <li class="NavbarMobile__dropdown__item">
+                                                        <a href="./pages/rules.html">
+                                                            Regulament
+                                                        </a>
+                                                    </li>
+                                                    <li class="NavbarMobile__dropdown__item">
+                                                        <a href="./pages/faq.html">
+                                                            Întrebări frecvente
+                                                        </a>
+                                                    </li>
+                                                    <li class="NavbarMobile__dropdown__item">
+                                                        <a href="./pages/viguide.html">
+                                                            Instrucțiuni video
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                             <li class="NavbarMobile__dropdown__item">
                                                 <a href="./pages/viguide.html">
                                                     Instrucțiuni video
@@ -249,6 +305,90 @@
                                         <a href="./pages/viguide.html">
                                             Instrucțiuni video
                                         </a>
+                                    </li>
+                                    <li class="NavbarMobile__dropdown__item NavbarMobile__dropdown">
+                                        <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
+                                            Informatii
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                        <ul class="NavbarMobile__dropdown__menu">
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="https://docs.google.com/document/d/1qBRxy3xZzkq33RcZb8ynJAC7hdVgh01GvKRmuMzlvOw" target="_blank">
+                                                    Ghid de aplicare
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/rules.html">
+                                                    Regulament
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/faq.html">
+                                                    Întrebări frecvente
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/viguide.html">
+                                                    Instrucțiuni video
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="NavbarMobile__dropdown__item NavbarMobile__dropdown">
+                                        <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
+                                            Informatii
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                        <ul class="NavbarMobile__dropdown__menu">
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="https://docs.google.com/document/d/1qBRxy3xZzkq33RcZb8ynJAC7hdVgh01GvKRmuMzlvOw" target="_blank">
+                                                    Ghid de aplicare
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/rules.html">
+                                                    Regulament
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/faq.html">
+                                                    Întrebări frecvente
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/viguide.html">
+                                                    Instrucțiuni video
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="NavbarMobile__dropdown__item NavbarMobile__dropdown">
+                                        <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
+                                            Informatii
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
+                                        <ul class="NavbarMobile__dropdown__menu">
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="https://docs.google.com/document/d/1qBRxy3xZzkq33RcZb8ynJAC7hdVgh01GvKRmuMzlvOw" target="_blank">
+                                                    Ghid de aplicare
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/rules.html">
+                                                    Regulament
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/faq.html">
+                                                    Întrebări frecvente
+                                                </a>
+                                            </li>
+                                            <li class="NavbarMobile__dropdown__item">
+                                                <a href="./pages/viguide.html">
+                                                    Instrucțiuni video
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </li>
