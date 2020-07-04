@@ -3,10 +3,10 @@
         <div class="row  justify-content-between pb-4">
             <div class="col-lg-6 col-xl-4">
                 <a href="/" class="pr-3 d-none d-lg-inline-block">
-                    <img src="./images/logos/egradinita_white.svg" alt="" class="pb-4">
+                    <img src="/themes/default/assets/images/logos/egradinita_white.svg" alt="" class="pb-4">
                 </a>
                 <a href="https://www.chisinau.md/">
-                    <img src="./images/logos/primaria_logo_white.svg" alt="">
+                    <img src="/themes/default/assets/images/logos/primaria_logo_white.svg" alt="">
                 </a>
             </div>
             <div class="col-lg-6 col-xl-3">
@@ -119,9 +119,3 @@
     </div>
     </div>
 </footer>
-
-<script src="./js/header.js"></script>
-<script src="./js/footer.js"></script>
-</body>
-
-</html>
