@@ -119,10 +119,5 @@
         </div>
     </div>
     </div>
+    <script src="./js/header.js"></script>
 </footer>
-
-<script src="./js/header.js"></script>
-<script src="./js/footer.js"></script>
-</body>
-
-</html>
