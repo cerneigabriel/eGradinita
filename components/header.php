@@ -19,7 +19,11 @@
 
     <title>eGradinita</title>
 
-    <link rel="stylesheet" href="./css/dist/main.min.css" />
+    <!-- Production Styles -->
+    <!-- <link rel="stylesheet" href="./css/dist/main.min.css" /> -->
+
+    <!-- Development Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
@@ -53,7 +57,7 @@
             <nav>
                 <ul class="Navbar__nav">
                     <li class="Navbar__item">
-                        <a href="./pages/schools.html" class="Navbar__link">Scoli</a>
+                        <a href="/schools.php" class="Navbar__link">Scoli</a>
                     </li>
                     <li class="Navbar__item Navbar__dropdown">
                         <button type="button" class="Navbar__link Navbar__dropdown__link">
@@ -66,24 +70,24 @@
                                 </a>
                             </li>
                             <li class="Navbar__dropdown__item">
-                                <a href="./pages/rules.html">
+                                <a href="/rules.php">
                                     Regulament
                                 </a>
                             </li>
                             <li class="Navbar__dropdown__item">
-                                <a href="./pages/faq.html">
+                                <a href="/faq.php">
                                     Întrebări frecvente
                                 </a>
                             </li>
                             <li class="Navbar__dropdown__item">
-                                <a href="./pages/viguide.html">
+                                <a href="/viguide.php">
                                     Instrucțiuni video
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li class="Navbar__item">
-                        <a href="./pages/assignments.html" class="Navbar__link">Cereri</a>
+                        <a href="/assignments.php" class="Navbar__link">Cereri</a>
                     </li>
                 </ul>
                 <ul class="Navbar__nav">
@@ -108,7 +112,7 @@
         <nav>
             <ul class="NavbarMobile__nav">
                 <button type="button" class="NavbarMobile__menu__toggler">
-                    <img src="./images/menu_icon.svg" alt="">
+                    <img src="./images/icons/menu_icon.svg" alt="">
                 </button>
             </ul>
             <ul class="NavbarMobile__nav px-3">
@@ -141,7 +145,7 @@
                         </span>
                     </li>
                     <li class="NavbarMobile__item">
-                        <a href="./pages/schools.html" class="NavbarMobile__link">Scoli</a>
+                        <a href="/schools.php" class="NavbarMobile__link">Scoli</a>
                     </li>
                     <li class="NavbarMobile__item NavbarMobile__dropdown">
                         <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
@@ -155,24 +159,24 @@
                                 </a>
                             </li>
                             <li class="NavbarMobile__dropdown__item">
-                                <a href="./pages/rules.html">
+                                <a href="/rules.php">
                                     Regulament
                                 </a>
                             </li>
                             <li class="NavbarMobile__dropdown__item">
-                                <a href="./pages/faq.html">
+                                <a href="/faq.php">
                                     Întrebări frecvente
                                 </a>
                             </li>
                             <li class="NavbarMobile__dropdown__item">
-                                <a href="./pages/viguide.html">
+                                <a href="/viguide.php">
                                     Instrucțiuni video
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li class="NavbarMobile__item">
-                        <a href="./pages/assignments.html" class="NavbarMobile__link">Cereri</a>
+                        <a href="/assignments.php" class="NavbarMobile__link">Cereri</a>
                     </li>
                     <li class="NavbarMobile__item NavbarMobile__dropdown">
                         <button type="button" class="NavbarMobile__link NavbarMobile__dropdown__link">
@@ -186,12 +190,12 @@
                                 </a>
                             </li>
                             <li class="NavbarMobile__dropdown__item">
-                                <a href="./pages/rules.html">
+                                <a href="/rules.php">
                                     Regulament
                                 </a>
                             </li>
                             <li class="NavbarMobile__dropdown__item">
-                                <a href="./pages/faq.html">
+                                <a href="/faq.php">
                                     Întrebări frecvente
                                 </a>
                             </li>
@@ -219,12 +223,12 @@
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/rules.html">
+                                                <a href="/rules.php">
                                                     Regulament
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/faq.html">
+                                                <a href="/faq.php">
                                                     Întrebări frecvente
                                                 </a>
                                             </li>
@@ -246,17 +250,17 @@
                                                                 </a>
                                                             </li>
                                                             <li class="NavbarMobile__dropdown__item">
-                                                                <a href="./pages/rules.html">
+                                                                <a href="/rules.php">
                                                                     Regulament
                                                                 </a>
                                                             </li>
                                                             <li class="NavbarMobile__dropdown__item">
-                                                                <a href="./pages/faq.html">
+                                                                <a href="/faq.php">
                                                                     Întrebări frecvente
                                                                 </a>
                                                             </li>
                                                             <li class="NavbarMobile__dropdown__item">
-                                                                <a href="./pages/viguide.html">
+                                                                <a href="/viguide.php">
                                                                     Instrucțiuni video
                                                                 </a>
                                                             </li>
@@ -268,41 +272,41 @@
                                                         </a>
                                                     </li>
                                                     <li class="NavbarMobile__dropdown__item">
-                                                        <a href="./pages/rules.html">
+                                                        <a href="/rules.php">
                                                             Regulament
                                                         </a>
                                                     </li>
                                                     <li class="NavbarMobile__dropdown__item">
-                                                        <a href="./pages/faq.html">
+                                                        <a href="/faq.php">
                                                             Întrebări frecvente
                                                         </a>
                                                     </li>
                                                     <li class="NavbarMobile__dropdown__item">
-                                                        <a href="./pages/viguide.html">
+                                                        <a href="/viguide.php">
                                                             Instrucțiuni video
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/viguide.html">
+                                                <a href="/viguide.php">
                                                     Instrucțiuni video
                                                 </a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="NavbarMobile__dropdown__item">
-                                        <a href="./pages/rules.html">
+                                        <a href="/rules.php">
                                             Regulament
                                         </a>
                                     </li>
                                     <li class="NavbarMobile__dropdown__item">
-                                        <a href="./pages/faq.html">
+                                        <a href="/faq.php">
                                             Întrebări frecvente
                                         </a>
                                     </li>
                                     <li class="NavbarMobile__dropdown__item">
-                                        <a href="./pages/viguide.html">
+                                        <a href="/viguide.php">
                                             Instrucțiuni video
                                         </a>
                                     </li>
@@ -318,17 +322,17 @@
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/rules.html">
+                                                <a href="/rules.php">
                                                     Regulament
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/faq.html">
+                                                <a href="/faq.php">
                                                     Întrebări frecvente
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/viguide.html">
+                                                <a href="/viguide.php">
                                                     Instrucțiuni video
                                                 </a>
                                             </li>
@@ -346,17 +350,17 @@
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/rules.html">
+                                                <a href="/rules.php">
                                                     Regulament
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/faq.html">
+                                                <a href="/faq.php">
                                                     Întrebări frecvente
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/viguide.html">
+                                                <a href="/viguide.php">
                                                     Instrucțiuni video
                                                 </a>
                                             </li>
@@ -374,17 +378,17 @@
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/rules.html">
+                                                <a href="/rules.php">
                                                     Regulament
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/faq.html">
+                                                <a href="/faq.php">
                                                     Întrebări frecvente
                                                 </a>
                                             </li>
                                             <li class="NavbarMobile__dropdown__item">
-                                                <a href="./pages/viguide.html">
+                                                <a href="/viguide.php">
                                                     Instrucțiuni video
                                                 </a>
                                             </li>
@@ -393,7 +397,7 @@
                                 </ul>
                             </li>
                             <li class="NavbarMobile__dropdown__item">
-                                <a href="./pages/viguide.html">
+                                <a href="/viguide.php">
                                     Instrucțiuni video
                                 </a>
                             </li>
@@ -404,3 +408,4 @@
         </div>
     </div>
     <!-- Navbar Mobile End -->
+    <div class="PageContent">

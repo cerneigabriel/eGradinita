@@ -28,6 +28,11 @@ body {
   max-width: 73.75rem; /* 1180px */
 }
 
+.PageContent {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 b {
   font-weight: bolder;
 }
@@ -43,5 +48,17 @@ button {
 
 ul {
   list-style: none;
+}
+
+.rules_iframe,
+.faq_iframe {
+  min-width: 100%;
+  min-height: 900px;
+  overflow-x: scroll;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  outline: 0px;
 }
 /* Globals End */

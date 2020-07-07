@@ -1,3 +1,4 @@
+</div>
 <footer class="Footer">
     <div class="container">
         <div class="row  justify-content-between pb-4">

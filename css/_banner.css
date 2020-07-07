@@ -47,7 +47,7 @@
 
 .Banner--hero {
   padding: 6.25rem 0; /* 100px */
-  background: url(../../images/girl.jpg) center center / cover no-repeat;
+  background: url(../../images/banners/girl.jpg) center center / cover no-repeat;
   color: white;
 }
 
@@ -56,7 +56,8 @@
 }
 
 .Banner--subhero {
-  background: url(../../images/teens.jpg) center center / cover no-repeat;
+  background: url(../../images/banners/teens.jpg) center center / cover
+    no-repeat;
   padding: 3.75rem 0; /* 60px */
   color: white;
 }
