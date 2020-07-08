@@ -1,0 +1,55 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.Table,
+.TableList {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.TableList td {
+  padding: 0.3rem 0.5rem 0.3rem 0;
+}
+
+.TableList .TableList__head {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  padding: 0.3rem 0.5rem 0.3rem 1.2rem;
+  position: relative;
+}
+
+.TableList .TableList__head::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0.5rem; /* 8px */
+  height: 0.5rem; /* 8px */
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-top: 0.125rem /* 2px */ solid white;
+  border-right: 0.125rem /* 2px */ solid white;
+  border-radius: 0.0625rem; /* 1px */
+}
+
+.TableList .TableList__value {
+  font-size: 1.125rem; /* 18px */
+  text-align: right;
+}
+
+@media (max-width: 63.125rem /* 1010px */) {
+  .TableList .TableList__head {
+    font-size: 0.9375rem; /* 15px */
+  }
+
+  .TableList .TableList__value {
+    font-size: 0.9375rem; /* 15px */
+  }
+}

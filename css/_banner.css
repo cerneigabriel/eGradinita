@@ -1,0 +1,159 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* 
+
+  Banner
+
+*/
+.Banner {
+  margin-bottom: 1.875rem; /* 30px */
+  text-align: right;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+.Banner__title {
+  font-size: 4.625em;
+  font-weight: 900;
+}
+
+.Banner__subtitle {
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.Banner__subtitle::after {
+  content: "";
+  width: 31.875rem; /* 510px */
+  display: block;
+  margin-left: auto;
+  margin-top: 1.25rem; /* 20px */
+  border-bottom: 0.0625rem /* 1px */ solid white;
+}
+
+.Banner__description {
+  margin-top: 1.875rem; /* 30px */
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.Banner--hero {
+  padding: 6.25rem 0; /* 100px */
+  background: url(../../images/banners/girl.jpg) center center / cover no-repeat;
+  color: white;
+}
+
+.Banner--hero .Banner__subtitle {
+  color: rgb(255, 255, 0);
+}
+
+.Banner--subhero {
+  background: url(../../images/banners/teens.jpg) center center / cover
+    no-repeat;
+  padding: 3.75rem 0; /* 60px */
+  color: white;
+}
+
+.Banner--subhero .Banner__subtitle {
+  color: rgb(255, 255, 0);
+}
+
+.Banner--steps {
+  padding: 8.75rem 0; /* 140px */
+}
+
+.Banner--authorize {
+  padding: 5rem 0rem; /* 80px 0px */
+  line-height: 1.2;
+  background: rgb(245, 245, 245);
+  text-align: center;
+}
+
+.Banner--authorize .Banner__title {
+  font-size: 3rem; /* 48px */
+  font-weight: bold;
+  margin-bottom: 0.625rem; /* 10px */
+  color: var(--dark-color);
+}
+
+.Banner--authorize .Banner__description {
+  font-size: 1.5rem; /* 24px */
+  margin-top: 0;
+  margin-bottom: 1.25rem; /* 20px */
+  color: var(--dark-color);
+}
+
+@media (max-width: 61.875rem /* 990px */) {
+  .Banner--hero {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: none !important;
+    text-align: left;
+  }
+
+  .Banner--hero {
+    color: var(--dark-color);
+  }
+
+  .Banner--hero .Banner__subtitle {
+    color: var(--accent-color);
+  }
+
+  .Banner--hero .Banner__subtitle::after {
+    display: none;
+    visibility: hidden;
+  }
+
+  .Banner--hero .Banner__title {
+    font-size: 3.75em;
+    line-height: 1;
+    margin: 1.25rem 0rem 0rem; /* 20px 0px 0px */
+  }
+
+  .Banner--subhero {
+    padding: 1.875rem 0; /* 30px */
+    text-align: center;
+  }
+
+  .Banner--steps {
+    padding: 1.875rem 0; /* 30px */
+  }
+
+  .Banner .Banner__description {
+    margin-top: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .Banner--authorize {
+    text-align: left;
+    padding-top: 1.25rem; /* 20px */
+    padding-bottom: 1.25rem; /* 20px */
+  }
+}
+
+@media (max-width: 37.5rem /* 600px */) {
+  .Banner .Banner__title {
+    font-size: 1.875rem;
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .Banner .Banner__subtitle {
+    font-size: 1.125rem;
+  }
+
+  .Banner .Banner__description {
+    font-size: 1rem;
+  }
+
+  .Banner--subhero {
+    padding: 3.125rem 0; /* 50px */
+  }
+}

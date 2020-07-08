@@ -1,0 +1,87 @@
+.PageTitle {
+  position: relative;
+  padding-right: 300px;
+  min-height: 183px;
+  margin-bottom: 50px;
+  background: rgb(0, 191, 243);
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+}
+
+.PageTitle--container {
+  padding-right: 0;
+}
+
+.PageTitle--container > .container {
+  position: relative;
+  padding-right: 300px;
+  min-height: 183px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PageTitle__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.PageTitle__description {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.PageTitle--rules::before,
+.PageTitle--rules .container::before {
+  content: "";
+  position: absolute;
+  right: 70px;
+  top: 0;
+  width: 314px;
+  height: 255px;
+  background: url(../images/icons/rules_icon.svg) center center no-repeat;
+  z-index: 10;
+}
+
+.PageTitle--faq::before,
+.PageTitle--faq .container::before {
+  content: "";
+  position: absolute;
+  right: 70px;
+  top: -40px;
+  width: 320px;
+  height: 255px;
+  background: url(../images/icons/faq_icon.svg) center center no-repeat;
+  z-index: 10;
+}
+
+.PageTitle--viguide::before,
+.PageTitle--viguide .container::before {
+  content: "";
+  position: absolute;
+  right: 70px;
+  top: -72px;
+  width: 260px;
+  height: 255px;
+  background: url(../images/icons/viguide_icon.svg) center center no-repeat;
+  z-index: 10;
+}
+
+.PageTitle--assignments::before,
+.PageTitle--assignments .container::before,
+.PageTitle--schools::before,
+.PageTitle--schools .container::before {
+  content: "";
+  position: absolute;
+  right: 70px;
+  top: -10px;
+  width: 213px;
+  height: 255px;
+  background: url(../images/icons/assignments_icon.svg) center center no-repeat;
+  z-index: 10;
+}
+
+.PageTitle--container::before {
+  content: none;
+}
