@@ -1,5 +1,6 @@
 <?php include 'components/header.php'; ?>
 
+<<<<<<< HEAD
 <!-- PageTitle -->
 <div class="PageTitle PageTitle--container PageTitle--rules">
     <div class="container">
@@ -17,3 +18,6 @@
 <!-- Rules End -->
 
 <?php include 'components/footer.php'; ?>
+=======
+<?php include 'components/footer.php' ?>
+>>>>>>> a2dbd2ef5b166758a847c5260e8db581765d79b6
