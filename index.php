@@ -23,19 +23,3 @@ Route::add('/rules', function () {
 // Route::add('/imprint', function () {
 //     Page::render('imprint');
 // });
-
-<<<<<<< HEAD
-<?php include 'components/footer.php'; ?>
-=======
-// Error pages
-Route::pathNotFound(function ($path) {
-    Page::render('404', 'default', ['path' => $path]);
-});
-
-Route::methodNotAllowed(function ($path, $method) {
-    Page::render('405', 'default', ['path' => $path, 'method' => $method]);
-});
-
-// Run the router
-Route::run('/');
->>>>>>> a2dbd2ef5b166758a847c5260e8db581765d79b6
