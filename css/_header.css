@@ -265,7 +265,7 @@ nav {
 
 .navbarmobile_menu {
   visibility: hidden;
-  transition: all 0.3s linear;
+  transition: visibility 0.3s linear;
 }
 
 .navbarmobile_menu_overlay {
@@ -280,6 +280,7 @@ nav {
 }
 
 .navbarmobile_menu > nav {
+  transform: translateX(-100%);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -295,7 +296,6 @@ nav {
   align-items: stretch;
   color: rgb(88, 89, 91);
   overflow-y: auto;
-  transform: translateX(-100%);
   transition-delay: 1s;
   transition: all 0.3s linear;
 }
