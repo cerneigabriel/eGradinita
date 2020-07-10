@@ -6,22 +6,7 @@
 */
 
 /* Step */
-.Steps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.Step__item {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+.step {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,16 +20,16 @@
   -ms-flex-direction: column;
 }
 
-.Step__item:not(:last-child)::after {
+.step:not(:last-child)::after {
   content: "";
   position: absolute;
   top: 4.0625rem; /* 65px */
   left: 83%;
-  width: 4.0625rem; /* 65px */
+  width: 4.3rem; /* 65px */
   border-top: 0.0625rem /* 1px */ solid rgb(209, 210, 212);
 }
 
-.Step__title {
+.step_title {
   color: rgb(88, 89, 91);
   font-size: 1.5rem; /* 24px */
   font-weight: 800;
@@ -53,7 +38,7 @@
   text-align: center;
 }
 
-.Step__description {
+.step_description {
   color: rgb(88, 89, 91);
   font-size: 1.125rem; /* 18px */
   font-weight: 500;
@@ -62,32 +47,19 @@
   text-align: center;
 }
 
-@media (max-width: 63.125rem /* 1010px */) {
-  .Steps .Step__item:not(:last-child)::after {
+@media screen and (max-width: 1010px) {
+  .step:not(:last-child)::after {
     display: none;
     visibility: hidden;
   }
 }
 
-@media (max-width: 61.875rem /* 990px */) {
-  .Steps {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .Steps .Step__item:not(:last-child) {
+@media screen and (max-width: 990px) {
+  .step:not(:last-child) {
     margin-bottom: 1.5rem; /* 24px */
   }
 
-  .Step__item {
+  .step {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -97,16 +69,16 @@
     align-items: center;
   }
 
-  .Step__item > * {
+  .step > * {
     padding: 0 0.5rem;
   }
 
-  .Step__title {
+  .step_title {
     margin-top: 0;
     text-align: left;
   }
 
-  .Step__description {
+  .step_description {
     padding: 0;
     text-align: left;
   }

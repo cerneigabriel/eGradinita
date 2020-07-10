@@ -1,11 +1,13 @@
 <?php include 'components/header.php'; ?>
 
 <!-- PageTitle -->
-<div class="PageTitle PageTitle--container PageTitle--rules">
+<div class="pagetitle pagetitle_container pagetitle_rules">
     <div class="container">
-        <h1 class="PageTitle__title">
-            Regulament
-        </h1>
+        <div class="pagetitle__wrapper">
+            <h1 class="pagetitle_title">
+                Regulament
+            </h1>
+        </div>
     </div>
 </div>
 <!-- PageTitle End -->

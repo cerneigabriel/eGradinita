@@ -5,14 +5,19 @@
 * Browsers: last 4 version
 */
 
-.Input {
+/* 
+
+  Input
+
+*/
+.input {
   text-align: center;
   font-size: 1.125rem; /* 18px */
   font-weight: 500;
   line-height: 1.3125rem; /* 21px */
   color: rgb(11, 61, 78);
   margin-top: 0.5rem; /* 8px */
-  padding: 1.1rem 0.75rem; /* 15px 12px */
+  padding: 1rem 1rem; /* 15px 12px */
   outline: 0rem; /* 0px */
   border-width: 0.0625rem; /* 1px */
   border-style: solid;
@@ -22,17 +27,27 @@
   border-radius: 0.9375rem; /* 15px */
 }
 
-.Input::-webkit-input-placeholder,
-.Input:-ms-input-placeholder,
-.Input::-moz-placeholder,
-.Input::-ms-input-placeholder,
-.Input::placeholder {
+.input::-webkit-input-placeholder,
+.input:-ms-input-placeholder,
+.input::-moz-placeholder,
+.input::-ms-input-placeholder,
+.input::placeholder {
   color: var(--dark-color);
   opacity: 0.5;
   font-weight: 600;
 }
+/* 
 
-.Button {
+  Input End
+
+*/
+
+/* 
+
+  Button
+
+*/
+.button {
   background: transparent;
   text-align: center;
   display: -webkit-box;
@@ -50,23 +65,33 @@
   padding: 1.05rem 5rem;
 }
 
-.Button--accent {
+.button_accent {
   background-color: rgb(150, 182, 63);
   color: rgb(255, 255, 255);
 }
 
-.Button--link {
+.button_link {
   display: inline-block;
   color: rgb(0, 191, 243);
   font-size: 1.125rem; /* 18px */
   text-decoration: underline;
 }
 
-.Button--white {
+.button_white {
   color: white;
 }
+/* 
 
-.Combobox {
+  Button End
+
+*/
+
+/* 
+
+  Combobox
+
+*/
+.combobox {
   color: rgb(11, 61, 78);
   margin-top: 0.5rem; /* 8px */
   border-width: 0.0625rem; /* 1px */
@@ -78,38 +103,37 @@
   overflow: hidden;
 }
 
-.Combobox::-webkit-input-placeholder,
-.Combobox:-ms-input-placeholder,
-.Combobox::-moz-placeholder,
-.Combobox::-ms-input-placeholder,
-.Combobox::placeholder {
+.combobox::-webkit-input-placeholder,
+.combobox:-ms-input-placeholder,
+.combobox::-moz-placeholder,
+.combobox::-ms-input-placeholder,
+.combobox::placeholder {
   color: var(--dark-color);
   opacity: 0.5;
   font-weight: 600;
 }
 
-.Combobox__input {
+.combobox_input {
   outline: 0rem;
   border: 0;
   background: transparent;
-  padding: 0.67857143rem 2.1rem 0.67857143rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1.125rem; /* 18px */
   font-weight: 500;
   line-height: 1.21428571em;
 }
 
-.Combobox__list {
+.combobox_list {
   display: none;
   visibility: none;
   align-items: stretch;
-  justify-content: center;
   flex-direction: column;
   list-style: none;
   max-height: 16.4rem;
   overflow-y: auto;
 }
 
-.Combobox__item {
+.combobox_item {
   position: relative;
   cursor: pointer;
   display: block;
@@ -128,28 +152,33 @@
   word-wrap: normal;
 }
 
-.Combobox__item:first-child {
+.combobox_item:first-child {
   border-top-width: 0;
 }
 
-.Combobox__item--active,
-.Combobox__item--active:active {
+.combobox_item.active,
+.combobox_item.active:active {
   background: rgba(0, 0, 0, 0.03);
   color: rgba(0, 0, 0, 0.95);
 }
 
-.Combobox__item:hover {
+.combobox_item:hover {
   background: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.95);
   z-index: 13;
 }
 
-.Combobox--open {
+.combobox.open {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.Combobox--open .Combobox__list {
+.combobox.open .combobox_list {
   display: flex;
   visibility: visible;
 }
+/* 
+
+  Combobox End
+
+*/
