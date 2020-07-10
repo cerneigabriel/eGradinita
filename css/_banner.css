@@ -10,150 +10,210 @@
   Banner
 
 */
-.Banner {
-  margin-bottom: 1.875rem; /* 30px */
-  text-align: right;
-  line-height: 1.2;
-  font-size: 1rem;
-}
-
-.Banner__title {
+.banner_title {
   font-size: 4.625em;
   font-weight: 900;
 }
 
-.Banner__subtitle {
+.banner_subtitle {
   font-size: 2em;
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
 }
 
-.Banner__subtitle::after {
+.banner_subtitle::after {
   content: "";
   width: 31.875rem; /* 510px */
   display: block;
-  margin-left: auto;
   margin-top: 1.25rem; /* 20px */
   border-bottom: 0.0625rem /* 1px */ solid white;
 }
 
-.Banner__description {
-  margin-top: 1.875rem; /* 30px */
-  font-size: 1.5em;
+.banner_description {
+  margin-top: 30px;
+  font-size: 24px;
   line-height: 1.2;
   font-weight: 500;
+  max-width: 530px;
+  margin-left: auto;
 }
 
-.Banner--hero {
+/* 
+
+  Main Banner
+
+*/
+
+.banner_main {
   padding: 6.25rem 0; /* 100px */
   background: url(../../images/banners/girl.jpg) center center / cover no-repeat;
   color: white;
+  text-align: right;
 }
 
-.Banner--hero .Banner__subtitle {
+.banner_main .banner_subtitle {
   color: rgb(255, 255, 0);
 }
 
-.Banner--subhero {
-  background: url(../../images/banners/teens.jpg) center center / cover
-    no-repeat;
-  padding: 3.75rem 0; /* 60px */
-  color: white;
+.banner_main .banner_subtitle::after {
+  margin-left: auto;
 }
 
-.Banner--subhero .Banner__subtitle {
-  color: rgb(255, 255, 0);
-}
-
-.Banner--steps {
-  padding: 8.75rem 0; /* 140px */
-}
-
-.Banner--authorize {
-  padding: 5rem 0rem; /* 80px 0px */
-  line-height: 1.2;
-  background: rgb(245, 245, 245);
-  text-align: center;
-}
-
-.Banner--authorize .Banner__title {
-  font-size: 3rem; /* 48px */
-  font-weight: bold;
-  margin-bottom: 0.625rem; /* 10px */
-  color: var(--dark-color);
-}
-
-.Banner--authorize .Banner__description {
-  font-size: 1.5rem; /* 24px */
-  margin-top: 0;
-  margin-bottom: 1.25rem; /* 20px */
-  color: var(--dark-color);
-}
-
-@media (max-width: 61.875rem /* 990px */) {
-  .Banner--hero {
+@media screen and (max-width: 990px) {
+  .banner_main {
     padding-top: 0;
     padding-bottom: 0;
     background: none !important;
     text-align: left;
   }
 
-  .Banner--hero {
+  .banner_main {
     color: var(--dark-color);
   }
 
-  .Banner--hero .Banner__subtitle {
+  .banner_main .banner_subtitle {
     color: var(--accent-color);
   }
 
-  .Banner--hero .Banner__subtitle::after {
+  .banner_main .banner_subtitle::after {
     display: none;
     visibility: hidden;
   }
 
-  .Banner--hero .Banner__title {
+  .banner_main .banner_title {
     font-size: 3.75em;
     line-height: 1;
     margin: 1.25rem 0rem 0rem; /* 20px 0px 0px */
   }
+}
+/* 
 
-  .Banner--subhero {
+  Main Banner End
+
+*/
+
+/*
+
+  Submain Banner
+
+*/
+.banner_submain {
+  background: url(../../images/banners/teens.jpg) center center / cover
+    no-repeat;
+  padding: 3.75rem 0; /* 60px */
+  color: white;
+  text-align: right;
+}
+
+.banner_submain .banner_subtitle {
+  color: rgb(255, 255, 0);
+}
+
+.banner_submain .banner_subtitle::after {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 990px) {
+  .banner_submain {
     padding: 1.875rem 0; /* 30px */
     text-align: center;
   }
+}
 
-  .Banner--steps {
+@media screen and (max-width: 600px) {
+  .banner_submain {
+    padding: 3.125rem 0; /* 50px */
+  }
+}
+/*
+
+  Submain Banner End
+
+*/
+
+/*
+
+  Steps Banner
+
+*/
+.banner_steps {
+  padding: 8.75rem 0; /* 140px */
+}
+
+@media screen and (max-width: 990px) {
+  .banner_steps {
     padding: 1.875rem 0; /* 30px */
   }
+}
+/*
 
-  .Banner .Banner__description {
-    margin-top: 0.625rem; /* 10px */
-    margin-bottom: 0.625rem; /* 10px */
-  }
+  Steps Banner End
 
-  .Banner--authorize {
+*/
+
+/*
+
+  Authorize Banner
+
+*/
+.banner_authorize {
+  padding: 5rem 0rem; /* 80px 0px */
+  line-height: 1.2;
+  background: rgb(245, 245, 245);
+  text-align: center;
+}
+
+.banner_authorize .banner_title {
+  font-size: 3rem; /* 48px */
+  font-weight: bold;
+  margin-bottom: 0.625rem; /* 10px */
+  color: var(--dark-color);
+}
+
+.banner_authorize .banner_description {
+  font-size: 1.5rem; /* 24px */
+  margin-top: 0;
+  margin-bottom: 1.25rem; /* 20px */
+  max-width: 100%;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 990px) {
+  .banner_authorize {
     text-align: left;
     padding-top: 1.25rem; /* 20px */
     padding-bottom: 1.25rem; /* 20px */
   }
 }
+/*
 
-@media (max-width: 37.5rem /* 600px */) {
-  .Banner .Banner__title {
+  Authorize Banner End
+
+*/
+
+@media screen and (max-width: 990px) {
+  .banner_description {
+    margin-top: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem; /* 10px */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner_title {
     font-size: 1.875rem;
     margin-bottom: 0.625rem; /* 10px */
   }
 
-  .Banner .Banner__subtitle {
+  .banner_subtitle {
     font-size: 1.125rem;
   }
 
-  .Banner .Banner__description {
+  .banner_description {
     font-size: 1rem;
   }
 
-  .Banner--subhero {
+  .banner_submain {
     padding: 3.125rem 0; /* 50px */
   }
 }

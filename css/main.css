@@ -2,7 +2,6 @@
 @import "./vendor/font-awesome.min.css";
 @import "./vendor/animate.css";
 
-@import "./_utilities.css";
 @import "./_variables.css";
 @import "./_minireset.css";
 @import "./_typography.css";
@@ -14,3 +13,6 @@
 @import "./_forms.css";
 @import "./_table.css";
 @import "./_pagetitle.css";
+
+/* Utilities */
+@import "./_utilities.css";

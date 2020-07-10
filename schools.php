@@ -1,13 +1,13 @@
 <?php include 'components/header.php'; ?>
 
 <!-- PageTitle -->
-<div class="PageTitle PageTitle--container PageTitle--schools">
+<div class="pagetitle pagetitle_container pagetitle_schools">
     <div class="container">
         <div>
-            <h1 class="PageTitle__title">
+            <h1 class="pagetitle_title">
                 Lista instituțiilor de învățământ
             </h1>
-            <p class="PageTitle__description">
+            <p class="pagetitle_description">
                 Districtele și adresele care le deservesc
             </p>
         </div>
@@ -20,27 +20,27 @@
     <div class="row align-items-start justify-content-between my-5">
         <div class="col-lg-8">
             <h5>Domiciliu sau instituția</h5>
-            <input type="text" class="Input" placeholder="Caută...">
+            <input type="text" class="input w-100 text-left" placeholder="Caută...">
         </div>
         <div class="col-lg-4">
             <h5>District</h5>
-            <div class="Combobox Combobox--open">
-                <input class="Combobox__input" type="text">
-                <i aria-hidden="true" class="Combobox__icon"></i>
+            <div class="combobox w-100">
+                <input class="combobox_input" type="text">
+                <i aria-hidden="true" class="combobox_icon"></i>
 
-                <ul class="Combobox__list">
-                    <li class="Combobox__item Combobox__item--active">General</li>
-                    <li class="Combobox__item">Toate</li>
-                    <li class="Combobox__item">Sport</li>
-                    <li class="Combobox__item">Bilingve</li>
-                    <li class="Combobox__item">Alternativă educațională</li>
-                    <li class="Combobox__item">Arte</li>
-                    <li class="Combobox__item">Fanfară</li>
-                    <li class="Combobox__item">Coregrafie</li>
-                    <li class="Combobox__item">Etno-folclor</li>
-                    <li class="Combobox__item">Arte plastice</li>
-                    <li class="Combobox__item">Muzical-coral</li>
-                    <li class="Combobox__item">Teatral</li>
+                <ul class="combobox_list">
+                    <li class="combobox_item active">General</li>
+                    <li class="combobox_item">Toate</li>
+                    <li class="combobox_item">Sport</li>
+                    <li class="combobox_item">Bilingve</li>
+                    <li class="combobox_item">Alternativă educațională</li>
+                    <li class="combobox_item">Arte</li>
+                    <li class="combobox_item">Fanfară</li>
+                    <li class="combobox_item">Coregrafie</li>
+                    <li class="combobox_item">Etno-folclor</li>
+                    <li class="combobox_item">Arte plastice</li>
+                    <li class="combobox_item">Muzical-coral</li>
+                    <li class="combobox_item">Teatral</li>
                 </ul>
             </div>
         </div>
